@@ -38,7 +38,7 @@ rustls = ["sqlx/runtime-async-std-rustls"]
 
 [dependencies]
 async-std = "1"
-sqlx = "0.7.4"
+sqlx = "0.8.6"
 
 [dependencies.tracing_crate]
 version = "0.1"
