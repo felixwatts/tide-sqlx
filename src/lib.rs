@@ -46,7 +46,7 @@
 //! use tide_sqlx::SQLxRequestExt;
 //!
 //! let mut connect_opts = PgConnectOptions::new();
-//! connect_opts.log_statements(LevelFilter::Debug);
+//! let mut connect_opts = connect_opts.log_statements(LevelFilter::Debug);
 //!
 //! let pg_pool = PgPoolOptions::new()
 //!     .max_connections(5)
